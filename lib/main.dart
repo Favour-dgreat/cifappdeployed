@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';  
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'auth/firebase_auth/firebase_user_provider.dart';
 import 'auth/firebase_auth/auth_util.dart';
 import 'backend/firebase/firebase_config.dart';
@@ -15,19 +14,24 @@ import 'package:firebase_app_check/firebase_app_check.dart' as app_check;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env");
-
-  // Initialize Firebase and Firebase App Check first
-  await Firebase.initializeApp();
+  
+  // This is the correct order.
+  // The Firebase.initializeApp() call should be within initFirebase()
+  // and be the first thing to run after widgets are initialized.
+  await initFirebase();
+  
+  // Now that Firebase is initialized, it's safe to activate App Check.
   await app_check.FirebaseAppCheck.instance.activate(
     androidProvider: app_check.AndroidProvider.playIntegrity,
     appleProvider: app_check.AppleProvider.appAttest,
   );
-
+  
+  await dotenv.load(fileName: ".env");
+  
   GoRouter.optionURLReflectsImperativeAPIs = true;
   usePathUrlStrategy();
     
-  final appState = FFAppState(); // Initialize FFAppState
+  final appState = FFAppState();
   await appState.initializePersistedState();
 
   runApp(ChangeNotifierProvider(
