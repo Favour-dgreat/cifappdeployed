@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>64058760025-ijkl853t9j78lqask4opfqtsajp7qfh2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.64058760025-ijkl853t9j78lqask4opfqtsajp7qfh2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>64058760025-10bga3lu40pqdlrsfae41seak1lk6clb.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChgiCR5Ec9vxumrYpYgx-XbSqde3ZEKLs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>64058760025</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cefmorsi.app</string>
+	<key>PROJECT_ID</key>
+	<string>cefmorsi-d8ffc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cefmorsi-d8ffc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:64058760025:ios:886fe7e39d3f59dbda4a48</string>
+</dict>
+</plist>

@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "64058760025",
+    "project_id": "cefmorsi-d8ffc",
+    "storage_bucket": "cefmorsi-d8ffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64058760025:android:83ff7cee82e75f2dda4a48",
+        "android_client_info": {
+          "package_name": "cefmor.si"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64058760025-10bga3lu40pqdlrsfae41seak1lk6clb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cefmor.si",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "64058760025-fmponbn6n2r39hbt94qhvcaauk1jm1en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cefmor.si",
+            "certificate_hash": "915d70ec66d09a27947c9263824727a57ab20797"
+          }
+        },
+        {
+          "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMPwXnsn5IhqUBO1oCVRaA5CocZnbqEFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64058760025-brh9hgnes55e5dga4p8gr7orteghaejs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cefmor.si"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64058760025:android:28828d36a41ba4a3da4a48",
+        "android_client_info": {
+          "package_name": "com.cefmorsi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64058760025-nb0u3muerojcginerb1b67ktbcqf2eh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cefmorsi.app",
+            "certificate_hash": "3d1c5984aaa924e269ff1dfbfdb8ecfe2f2778f8"
+          }
+        },
+        {
+          "client_id": "64058760025-pte0iu939gato6s2861vai9vf0vhiqac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cefmorsi.app",
+            "certificate_hash": "7e6a8b1178cbdaddfc9ad7fbb80bcec95a150d43"
+          }
+        },
+        {
+          "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMPwXnsn5IhqUBO1oCVRaA5CocZnbqEFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64058760025-brh9hgnes55e5dga4p8gr7orteghaejs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cefmor.si"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64058760025:android:53ea62115b895550da4a48",
+        "android_client_info": {
+          "package_name": "com.paperless.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMPwXnsn5IhqUBO1oCVRaA5CocZnbqEFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64058760025-v3ssdljds8c2ervvfccm4eqhcvaan62h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64058760025-brh9hgnes55e5dga4p8gr7orteghaejs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cefmor.si"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
